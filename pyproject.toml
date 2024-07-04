@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "data-science-udfjc"
+version = "0.1.0"
+description = "In this repository the contents of the workshops and other files for the data science class will be uploaded."
+authors = [
+    "Daniel Alejandro Chavez Busutos <dachavezb@udistrital.edu.co>",
+    "Julian Alejandro Pinzon Torres <jupinzont@udistrital.edu.co>",
+    "Fabian Esteban Perilla Lugo <faperillal@udistrital.edu.co>"
+]
+
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
